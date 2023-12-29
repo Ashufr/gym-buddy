@@ -23,7 +23,7 @@ axios.defaults.baseURL = "https://gym-buddy-backend.vercel.app";
         }
     
     }
-    return {signup, isLoading, error}
+    return {signup, isLoading, error , setError}
 }
 
 export default useSignup;
